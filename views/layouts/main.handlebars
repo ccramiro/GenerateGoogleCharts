@@ -3,10 +3,15 @@
    <head>
       <title>Generate Google Charts</title>
       {{#if showTests}}
-         <link rel="stylesheet" href="/vendor/mocha.css"> {{/if}}
-         <script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
+         <link rel="stylesheet" href="/vendor/mocha.css">
+      {{/if}}
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/css/home.css">
    </head>
    <body>
+      <div class="topline"></div>
       {{{body}}}
       {{#if showTests}}
          <div id="mocha"></div>
@@ -21,5 +26,6 @@
          {{/if}}
          <script>mocha.run();</script>
       {{/if}}
+      <script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
    </body>
 </html>
