@@ -1,4 +1,8 @@
-.topline {
+#pagecenterer {
+   margin: 40px;
+}
+
+#topline {
    width: 100%;
    background: #FFBF00;
    height: 5px;
