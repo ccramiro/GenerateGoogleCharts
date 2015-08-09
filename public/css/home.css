@@ -3,6 +3,8 @@
 }
 
 #topline {
+   top: 0;
+   position: fixed;
    width: 100%;
    background: #FFBF00;
    height: 5px;
