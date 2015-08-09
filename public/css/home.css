@@ -1,6 +1,5 @@
 #pagecenterer {
    margin: 100px 40px 0px;
-   font-family: 'Roboto', sans-serif;
 }
 
 #topline {
@@ -24,9 +23,12 @@
    box-shadow: 2px 2px 2px #888888;
 }
 
+#bodywrapper {
+   margin-top: 40px;
+}
+
 #titletext {
    margin-left: 40px;
-   font-family: 'Roboto', sans-serif;
 }
 
 a:link {
