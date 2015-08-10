@@ -17,6 +17,7 @@
 #upperwrapper {
    top: 0;
    width: 100%;
+   z-index: 99;
    position: fixed;
    background: #FFCD34;
    height: 80px;
